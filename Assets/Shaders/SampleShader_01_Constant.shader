@@ -25,7 +25,8 @@
     
                 //--------------------------------------
                 // Shader body
-                #include "LWRP/ShaderLibrary/Core.hlsl"
+				#include "Packages/com.unity.render-pipelines.lightweight/ShaderLibrary/Core.hlsl"  // include for unity 2018.3.x
+                //#include "LWRP/ShaderLibrary/Core.hlsl"                                           // include for unity 2018.2.x
                 
                 // IO structures
                 struct VertexInput
